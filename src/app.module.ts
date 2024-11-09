@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { AssignmentsController } from './assignment.controller';  // Correct import
+import { AssignmentsController } from './assignment.controller';  // Import your controller
 
 @Module({
   imports: [],
-  controllers: [AssignmentsController],  // Register the controller here
+  controllers: [AssignmentsController],  // Declare the controller here
   providers: [],
 })
 export class AppModule {}
